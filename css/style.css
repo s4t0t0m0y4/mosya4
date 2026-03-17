@@ -6,3 +6,38 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+    font-size: 14.4px;
+    padding-right: 30px;
+}
+
+li:hover {
+    opacity: 0.7;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+header {
+    padding: 110px 4% 100px 4%;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right ul {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: -45px;
+}
+
+.header-right a {
+    display: inline-block;
+    color: #24292e;
+}
