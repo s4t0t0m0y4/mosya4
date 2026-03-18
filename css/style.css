@@ -8,20 +8,15 @@ a {
 
 li {
     list-style: none;
-    font-size: 14.4px;
-    padding-right: 30px;
-}
-
-li:hover {
-    opacity: 0.7;
 }
 
 body {
     font-family: 'Hiragino Kaku Gothic ProN';
+    margin: 0;
 }
 
 header {
-    padding: 110px 4% 100px 4%;
+    padding: 117px 4% 153px 4%;
     width: 960px;
     margin: 0 auto;
 }
@@ -34,10 +29,59 @@ header {
     display: flex;
     float: right;
     margin-top: 5px;
-    margin-right: -45px;
+    margin-right: -37px;
+}
+
+.header-right li {
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.header-right li:hover {
+    opacity: 0.7;
 }
 
 .header-right a {
     display: inline-block;
     color: #24292e;
+}
+
+.header-right img {
+    width: 20px;
+}
+
+.main-visual img {
+    width: 100%;
+    height: 420px;
+}
+
+.contents {
+    width: 960px;
+    padding: 60px 4%;
+    margin: 0 auto;
+}
+
+.contents h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.contents p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.works-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works-img li {
+    flex: auto;
+    width: 33.333%;
+}
+
+.works-img img {
+    width: 100%;
 }
