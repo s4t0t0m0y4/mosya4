@@ -75,13 +75,17 @@ header {
 .works-img {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .works-img li {
     flex: auto;
-    width: 33.333%;
+    width: 33%;
 }
 
 .works-img img {
     width: 100%;
+    padding: 0 35px 20px 0;
 }
+
+
