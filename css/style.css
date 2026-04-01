@@ -89,18 +89,63 @@ header {
     padding: 0 35px 20px 0;
 }
 
-dl {
+.news-dl {
     display: flex;
     border-top: 1px solid #c8c8c8;
     padding-top: 15px;
     font-size: 14px;
 }
 
-dd {
+.news-dd {
     width: 20%;
     margin-left: 15px;
 }
 
-dt {
+.news-dt {
     width: 80%;
+}
+
+form {
+    margin-right: 100px;
+}
+
+.contact-dl {
+    display: flex;
+    font-size: 14px;
+}
+
+.contact-dd {
+    width: 20%;
+    margin-left: 0px;
+}
+
+.contact-dt {
+    width: 80%;
+    margin-left: -20px;
+}
+
+input {
+    width: 729px;
+    height: 44px;
+    border: 1px solid #c8c8c8;
+    border-radius: 0px;
+}
+
+textarea {
+    width: 729px;
+    height: 166px;
+    border: 1px solid #c8c8c8;
+    border-radius: 0px;
+}
+
+.submit {
+    margin: 0 auto;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 52px;
+    font-size: 14px;
 }
