@@ -17,7 +17,7 @@ body {
 
 header {
     padding: 117px 4% 153px 4%;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -52,11 +52,13 @@ header {
 
 .main-visual img {
     width: 100%;
+    max-width: 1280px;
     height: 420px;
+    object-fit: cover;
 }
 
 .contents {
-    width: 960px;
+    max-width: 960px;
     padding: 60px 4%;
     margin: 0 auto;
 }
@@ -142,14 +144,14 @@ form {
 }
 
 input {
-    width: 690px;
+    max-width: 690px;
     height: 44px;
     border: 1px solid #c8c8c8;
     border-radius: 0px;
 }
 
 textarea {
-    width: 690px;
+    max-width: 690px;
     height: 166px;
     border: 1px solid #c8c8c8;
     border-radius: 0px;
