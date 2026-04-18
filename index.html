@@ -12,30 +12,30 @@
 
     <body>
         <header>
-            <div class="header-left">
-                <a href="#"><img src="img/logo.svg"></a>
-            </div>
+            <h1>
+                <a href="index.html"><img src="img/logo.svg"></a>
+            </h1>
 
-            <div class="header-right">
+            <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#"><img src="img/icon-instagram.png" alt=""></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="img/icon-instagram.png"></a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
         
         <main>
             <div class="main-visual">
                 <picture>
                     <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
-                    <img src="img/mainvisual-pc.jpg" alt="">
+                    <img src="img/mainvisual-pc.jpg">
                 </picture>
             </div>
 
-            <div class="contents">
+            <div id="about" class="contents">
                 <div class="about">
                     <h2>About</h2>
                     <p>Xxxxx Ashley</p>
@@ -44,10 +44,10 @@
                 </div>
             </div>
 
-            <div class="contents">
+            <div id="works" class="contents">
                 <div class="works">
                     <h2>Works</h2>
-                    <ul class="works-img">
+                    <ul>
                         <li><img src="img/works1.jpg"></li>
                         <li><img src="img/works2.jpg"></li>
                         <li><img src="img/works3.jpg"></li>
@@ -58,48 +58,48 @@
                 </div>
             </div>
 
-            <div class="contents">
+            <div id="news" class="contents">
                 <div class="news">
                     <h2>News</h2>
-                    <dl class="news-dl">
-                        <dd class="news-dd">2020.XX.XX</dd>
-                        <dt class="news-dt">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dt>
+                    <dl>
+                        <dt>2020.XX.XX</dt>
+                        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
                     </dl>
-                    <dl class="news-dl">
-                        <dd class="news-dd">2020.XX.XX</dd>
-                        <dt class="news-dt">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dt>
+                    <dl>
+                        <dt>2020.XX.XX</dt>
+                        <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
                     </dl>
-                    <dl class="news-dl">
-                        <dd class="news-dd">2019.XX.XX</dd>
-                        <dt class="news-dt">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dt>
+                    <dl>
+                        <dt>2019.XX.XX</dt>
+                        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dl>
-                    <dl class="news-dl">
-                        <dd class="news-dd">2019.XX.XX</dd>
-                        <dt class="news-dt">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dt>
+                    <dl>
+                        <dt>2019.XX.XX</dt>
+                        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
                     </dl>
-                    <dl class="news-dl">
-                        <dd class="news-dd">2019.XX.XX</dd>
-                        <dt class="news-dt">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dt>
+                    <dl>
+                        <dt>2019.XX.XX</dt>
+                        <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dl>
-                    <dl class="news-dl"></dl>
+                    <dl></dl>
                 </div>
             </div>
 
-            <div class="contents">
+            <div id="contact" class="contents">
                 <div class="contact">
                     <h2>Contact</h2>
-                    <form>
-                        <dl class="contact-dl">
-                            <dd class="contact-dd">NAME</dd>
-                            <dt class="contact-dt"><input></dt>
+                    <form action="#" method="post">
+                        <dl>
+                            <dt>NAME</dt>
+                            <dd><input></dd>
                         </dl>
-                        <dl class="contact-dl">
-                            <dd class="contact-dd">E-mail</dd>
-                            <dt class="contact-dt"><input></dt>
+                        <dl>
+                            <dt>E-mail</dt>
+                            <dd><input></dd>
                         </dl>
-                        <dl class="contact-dl">
-                            <dd class="contact-dd">MESSAGE</dd>
-                            <dt class="contact-dt"><textarea></textarea></dt>
+                        <dl>
+                            <dt>MESSAGE</dt>
+                            <dd><textarea></textarea></dd>
                         </dl>
                         <div class="submit">
                             <input class="btn" type="submit">
