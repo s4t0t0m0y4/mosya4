@@ -1,24 +1,67 @@
 @media (max-width: 600px) {
     header {
-        flex-wrap: wrap;
-        width: 100%;
-        padding-top: 5px;
+        padding-top: 20px;
         padding-bottom: 0;
+        flex-wrap: wrap;
     }
 
-    .header-left {
-        float: none;
-        text-align: center;
+    h1 {
+        margin: 0 auto;
     }
 
-    .header-right ul {
-        float: none;
-        justify-content: center;
-        margin-right: 0;
+    nav ul {
+        padding: 0;
+        margin-top: 0;
     }
 
-    .works-img {
+    .about h2 {
+        padding: 78px 0 40px 0;
+    }
+
+    .works h2 {
+        padding: 100px 0 43px 0;
+    }
+
+    .works ul {
         flex-direction: column;
+    }
+
+    .works li {
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .news h2 {
+        padding: 90px 0 40px 0;
+    }
+
+    .news dl {
+        flex-direction: column;
+    }
+
+    .news dd {
+        width: 90%;
+        margin: 0 13px;
+    }
+
+    .contact h2 {
+        padding: 70px 0 40px 0;
+    }
+
+    .contact dl {
+        flex-direction: column;
+    }
+
+    .contact dt {
+        width: 100%;
+    }
+
+    .contact dd {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .submit {
+        padding: 30px 0 70px 0;
     }
 }
